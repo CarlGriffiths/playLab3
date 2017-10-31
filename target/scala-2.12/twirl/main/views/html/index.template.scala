@@ -32,9 +32,12 @@ object index extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.api.Html
 
 Seq[Any](format.raw/*1.4*/("""
 
-"""),_display_(/*3.2*/main("Welcome to Playyyy")/*3.28*/ {_display_(Seq[Any](format.raw/*3.30*/("""
+"""),_display_(/*3.2*/main("Welcome to Play")/*3.25*/ {_display_(Seq[Any](format.raw/*3.27*/("""
   """),format.raw/*4.3*/("""<h1>Welcome to Play!</h1>
-""")))}),format.raw/*5.2*/("""
+  <img src=""""),_display_(/*5.14*/routes/*5.20*/.Assets.versioned("images/image.jpeg")),format.raw/*5.58*/("""">
+  
+  
+""")))}),format.raw/*8.2*/("""
 """))
       }
     }
@@ -51,11 +54,11 @@ Seq[Any](format.raw/*1.4*/("""
 
               /*
                   -- GENERATED --
-                  DATE: Tue Oct 31 12:37:51 GMT 2017
+                  DATE: Tue Oct 31 13:57:12 GMT 2017
                   SOURCE: /media/sf_web/playapps/lab3/app/views/index.scala.html
-                  HASH: 13bef7a172ced146805e84018a411423a34ebef5
-                  MATRIX: 941->1|1037->3|1065->6|1099->32|1138->34|1167->37|1223->64
-                  LINES: 28->1|33->1|35->3|35->3|35->3|36->4|37->5
+                  HASH: ac1e64869609339729d7fc766ab6876413e6528e
+                  MATRIX: 941->1|1037->3|1065->6|1096->29|1135->31|1164->34|1229->73|1243->79|1301->117|1340->127
+                  LINES: 28->1|33->1|35->3|35->3|35->3|36->4|37->5|37->5|37->5|40->8
                   -- GENERATED --
               */
           

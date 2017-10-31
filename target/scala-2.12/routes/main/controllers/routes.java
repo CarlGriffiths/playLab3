@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/media/sf_web/playapps/lab3/conf/routes
-// @DATE:Tue Oct 31 12:41:54 GMT 2017
+// @DATE:Tue Oct 31 13:59:24 GMT 2017
 
 package controllers;
 

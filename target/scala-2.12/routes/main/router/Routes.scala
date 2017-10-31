@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/media/sf_web/playapps/lab3/conf/routes
-// @DATE:Tue Oct 31 12:41:54 GMT 2017
+// @DATE:Tue Oct 31 13:59:24 GMT 2017
 
 package router
 
@@ -41,7 +41,7 @@ class Routes(
 
   def documentation = List(
     ("""GET""", this.prefix, """controllers.HomeController.index"""),
-    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """about""", """controllers.HomeController.about"""),
+    ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """aboutUs""", """controllers.HomeController.about"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """product""", """controllers.HomeController.product"""),
     ("""GET""", this.prefix + (if(this.prefix.endsWith("/")) "" else "/") + """assets/""" + "$" + """file<.+>""", """controllers.Assets.versioned(path:String = "/public", file:Asset)"""),
     Nil
@@ -71,7 +71,7 @@ class Routes(
 
   // @LINE:7
   private[this] lazy val controllers_HomeController_about1_route = Route("GET",
-    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("about")))
+    PathPattern(List(StaticPart(this.prefix), StaticPart(this.defaultPrefix), StaticPart("aboutUs")))
   )
   private[this] lazy val controllers_HomeController_about1_invoker = createInvoker(
     HomeController_0.about,
@@ -81,7 +81,7 @@ class Routes(
       "about",
       Nil,
       "GET",
-      this.prefix + """about""",
+      this.prefix + """aboutUs""",
       """""",
       Seq()
     )
