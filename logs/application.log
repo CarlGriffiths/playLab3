@@ -28,3 +28,24 @@ so clearing cookies may resolve this error message.
     play.filters.hosts.AllowedHostsFilter
 
 2017-10-31 12:42:09,118 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-19 - Application started (Dev)
+2017-10-31 13:18:31,606 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-32 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2017-10-31 13:18:31,694 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-32 - Application started (Dev)
+2017-10-31 13:21:09,227 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-36 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2017-10-31 13:21:09,325 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-36 - Application started (Dev)
+2017-10-31 13:24:41,783 [INFO] from play.api.http.EnabledFilters in play-dev-mode-akka.actor.default-dispatcher-44 - Enabled Filters (see <https://www.playframework.com/documentation/latest/Filters>):
+
+    play.filters.csrf.CSRFFilter
+    play.filters.headers.SecurityHeadersFilter
+    play.filters.hosts.AllowedHostsFilter
+
+2017-10-31 13:24:41,857 [INFO] from play.api.Play in play-dev-mode-akka.actor.default-dispatcher-44 - Application started (Dev)
